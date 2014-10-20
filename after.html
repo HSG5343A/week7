@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8">
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <h2>Add Item</h2>
+            <form class="form-inline">
+                <input id="add-item" type="text" class="form-control" placeholder="Buy paper towels">
+                <button class="btn btn-primary">Add</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Todo List</h2>
+            <ul id="tasks-incomplete" class="task-list list-unstyled">
+                <li>
+                    <input id="task-5" type="checkbox">
+                    <label for="task-5">Task #5</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-6" type="checkbox">
+                    <label for="task-6">Task #6</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-7" type="checkbox">
+                    <label for="task-7">Task #7</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-8" type="checkbox">
+                    <label for="task-8">Task #8</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Completed</h2>
+            <ul id="tasks-complete" class="task-list list-unstyled">
+                <li>
+                    <input id="task-1" type="checkbox">
+                    <label for="task-1">Task #1</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-2" type="checkbox">
+                    <label for="task-2">Task #2</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-3" type="checkbox">
+                    <label for="task-3">Task #3</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+                <li>
+                    <input id="task-4" type="checkbox">
+                    <label for="task-4">Task #4</label>
+                    <div class="action pull-right">
+                        <button class="edit btn btn-sm btn-info">Edit</button>
+                        <button class="delete btn btn-sm btn-danger">Delete</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+</body>
+
+</html>

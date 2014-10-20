@@ -1,0 +1,13 @@
+.container{
+    max-width: 600px;
+}
+h2{
+    border-bottom: 3px solid #CCC;
+    margin-top:40px;
+}
+
+.task-list li{
+    border-bottom:1px solid #EAEAEA;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
