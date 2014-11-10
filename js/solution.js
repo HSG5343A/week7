@@ -78,7 +78,7 @@ function makeList(id) {
 
 function makeTodoList(id, start, finish) {
    var ul = makeList(id);
-   for(var i=5; i<9; i++) {
+   for(var i=start; i<finish; i++) {
       var li = makeElement('li');
       var input = makeElement('input', {
          id: 'task-' + i,
